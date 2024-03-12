@@ -1,0 +1,133 @@
+@import '../../../../scss/index.scss';
+
+footer {
+    .subscribe {
+        height: 300px;
+        padding: 50px;
+        background-color: $bcolor;
+        color: white;
+        display: flex;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+        .news {
+            width: 50%;
+        }
+
+        .join {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+
+            form {
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 15px;
+
+                .email {
+                    width: 100%;
+
+                    input {
+                        width: 100%;
+                    }
+                }
+
+                .name {
+                    display: flex;
+                    justify-content: center;
+                    gap: 10px;
+
+                    input {
+                        width: 50%;
+                    }
+                }
+
+
+                input {
+                    color: $bcolor;
+                    height: 50px;
+                }
+
+                button {
+                    cursor: pointer;
+                    color: white;
+                    background-color: $bcolor;
+                    border: 2px solid #fff;
+                    padding: 7px 25px 7px 25px;
+                    border-radius: 50px;
+                    text-align: center;
+                    vertical-align: middle;
+                    width: 30%;
+                    font-size: large;
+                }
+            }
+        }
+    }
+
+    .info {
+        color: $gcolor;
+        padding: 20px 50px;
+        display: flex;
+        flex-direction: column;
+        background-color: $lgcolor;
+
+        .contact {
+            display: flex;
+            justify-content: flex-start;
+            gap: 100px;
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                gap: 10px;
+
+                span {
+                    font-weight: bold;
+                    font-size: large;
+                }
+
+                li {
+                    cursor: pointer;
+
+                    &:hover {
+                        color: $bcolor;
+                    }
+                }
+            }
+        }
+    }
+
+    .bottom {
+        width: 100%;
+        // max-width: $maxW;
+        height: $footerH;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10vh;
+
+        // position: relative;
+        bottom: 0;
+        color: white;
+        background-color: $gcolor;
+
+        .credit {
+            font-size: larger;
+        }
+
+        .social {
+            display: flex;
+            justify-content: space-evenly;
+            gap: 50px;
+            font-size: 30px;
+
+            i {
+                color: white;
+
+            }
+        }
+    }
+}

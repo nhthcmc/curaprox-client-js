@@ -1,0 +1,160 @@
+// nav
+header {
+    nav {
+        height: $navH;
+        display: flex;
+        justify-content: space-between;
+        background-color: $gcolor;
+        color: white;
+        width: 100%;
+        padding: 0 5vh;
+        align-items: center;
+
+        img {
+            height: 30px;
+            width: 30px;
+        }
+
+        .left {
+            .slogan {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+
+        .right {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+
+            img {
+                cursor: pointer;
+            }
+
+            // .lang.active {
+            //     /*font-weight: bold;*/
+            //     border-right: 2px solid black;
+            //     padding-right: 5px;
+            //     background-color: transparent;
+            // }
+        }
+    }
+
+    /*header*/
+    .header_container {
+        height: $headerH;
+        // border-bottom: 1px solid black;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) inset;
+        display: flex;
+        justify-content: space-around;
+        top: 0;
+        position: sticky;
+        width: 105%;
+
+        .left {
+            .logo {
+                width: 150px;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+
+                img {
+                    height: 50px;
+                    width: auto;
+                }
+            }
+        }
+
+        .categ {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+            font-size: 20px;
+            font-weight: 800;
+            color: $gcolor;
+
+            .item {
+                cursor: pointer;
+
+                // &:after {
+                //     background: none repeat scroll 0 0 transparent;
+                //     bottom: 0;
+                //     content: "";
+                //     display: block;
+                //     height: 2px;
+                //     left: 50%;
+                //     position: absolute;
+                //     background: #fff;
+                //     transition: width 0.3s ease 0s, left 0.3s ease 0s;
+                //     width: 0;
+                // }
+
+                // &:hover:after {
+                //     width: 100%;
+                //     left: 0;
+                // }
+
+            }
+        }
+
+        .right {
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            align-items: center;
+
+            .cart-container {
+                display: flex;
+                align-items: center;
+                position: relative;
+
+                .cartCount {
+                    display: flex;
+                    color: #fff;
+                    width: 20px;
+                    height: 20px;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #ff0000;
+                    border-radius: 50%;
+                    font-size: 10px;
+                    position: absolute;
+                    top: -10px;
+                    left: 17px;
+                }
+            }
+
+            span {
+                cursor: 'pointer';
+                font-size: 30px;
+            }
+
+            .user {
+                color: $gcolor;
+                display: flex;
+                align-items: center;
+            }
+
+            img {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                margin-left: 10px;
+            }
+
+            .dropdown {
+                .dropdown-toggle {
+                    outline: unset !important;
+                    border: unset !important;
+                    background-color: transparent !important;
+                    display: flex;
+                }
+            }
+        }
+    }
+}

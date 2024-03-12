@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { userAction } from '@slices/userSlice'
+import { userAction } from '@slices/user.slice'
 import { useNavigate } from 'react-router-dom'
 
 export default function Info() {

@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useParams } from 'react-router-dom'
 import { convertToVND, randomId } from '@mieuteacher/meomeojs';
 import api from '@services/apis'
-import { orderAction } from '@slices/orderSlice'
+import { orderAction } from '@slices/order.slice'
 import { Modal } from 'antd';
 
 export default function Products() {

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Outlet } from 'react-router'
 import { useNavigate } from 'react-router-dom'
-import { productAction } from '@slices/productSlice'
+import { productAction } from '@slices/product.slice'
 import { useDispatch } from 'react-redux'
 
 export default function Container({ menuState }) {

@@ -5,7 +5,7 @@ import { convertToVND, randomId } from '@mieuteacher/meomeojs';
 import { Modal, QRCode } from 'antd';
 import { DeleteOutlined } from '@ant-design/icons';
 import api from '@services/apis'
-import { orderAction } from '@slices/orderSlice';
+import { orderAction } from '@slices/order.slice';
 
 export default function Cart() {
     const dispatch = useDispatch();

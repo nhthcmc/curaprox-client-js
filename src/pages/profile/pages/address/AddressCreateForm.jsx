@@ -1,6 +1,6 @@
 import React from 'react'
 import api from '@services/apis'
-import { addressAction } from '@slices/addressSlice';
+import { addressAction } from '@slices/address.slice';
 import { Modal } from 'antd';
 
 export default function AddressCreateForm({ dispatch }) {

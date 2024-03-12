@@ -3,7 +3,7 @@ import images from '@/images'
 import { Dropdown } from 'react-bootstrap';
 import { useSelector, useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
-import { userAction } from '@slices/userSlice'
+import { userAction } from '@slices/user.slice'
 import { Modal } from 'antd';
 
 export default function Navbar() {

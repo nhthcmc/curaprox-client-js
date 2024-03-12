@@ -3,7 +3,7 @@ import images from '@/images'
 import { Dropdown } from 'react-bootstrap';
 import MenuBtn from '@components/menu_btn/MenuBtn.jsx'
 import { useDispatch } from 'react-redux';
-import { userAction } from '@slices/userSlice'
+import { userAction } from '@slices/user.slice'
 import { Modal } from 'antd';
 
 export default function Navbar({ userStore, menuState, setMenuState }) {

@@ -1,7 +1,7 @@
 import { randomId } from '@mieuteacher/meomeojs';
 import React, { useState } from 'react'
 import { InputGroup, Form } from 'react-bootstrap';
-import { productAction } from '@slices/productSlice';
+import { productAction } from '@slices/product.slice';
 import { uploadToFirebase } from '@services/firebase'
 import api from '@services/apis'
 import { Modal } from 'antd';
